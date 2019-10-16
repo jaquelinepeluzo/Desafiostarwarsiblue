@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8"/>
+                <title>Desafio Star Wars!</title>
+                <link rel="stylesheet" type="text/css" href="_css/estilo2.css"/>
+                <link rel="stylesheet" type="text/css" href="_css/form.css"/>
+                <script language="javascript" src="_javascript/funcoes.js"></script>
+                
+            </head>
+
+    <body>
+            <div id ="interface">
+                    <header id="cabecalho">
+                    <hgroup>
+                    <h1>Desafio Star Wars</h1>
+                    <h2>May the force be with you</h2>
+                    </hgroup>
+                
+                    <img id="icone" src="_imagens/planetas.jpg"/>
+                    </header>
+
+        <fieldset id="addplanetas"><legend>Adicione seu Planeta!</legend>
+        <form action='http://localhost:3001/api/products/planetas' method="POST">
+            
+            <p><input type="text" name="name" id="cNome" size="20" maxlength="30" placeholder="Nome do Planeta"/></p>
+            <p><input type="text" name="climate" id="cClima" size="20" maxlength="30" placeholder="Clima"/></p>
+            <p></label><input type="text" name="terrain" id="cTerreno" size="20" maxlength="30" placeholder="Tipo de Terreno"/></p>
+            <p><input type="number" min="0" max="100" name="films" id="cFilme" size="30" maxlength="30" placeholder="Filmes"/></p>
+            <button type="submit">Send</button>
+        </form>
+        </fieldset>
+        <footer id="rodape">
+
+                <h2><p>Copyright &copy 2019 - by Jaqueline Peluzo<br></h2>
+                <h3><a href="https://www.iblueconsulting.com.br/" target="_blank">iblue Consulting</a></p></h3>
+                </footer>
+    </body>
+
+</html>
