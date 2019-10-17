@@ -41,7 +41,7 @@ Para possibilitar a equipe de front criar essa aplicação, queremos desenvolver
 Neste desafio foram utilizados: NodeJS e MongoDB, abaixo segue o link para fazer o login do MongoDB e a instalação do NodeJS.
 
 -   [MongoDB](https://www.mongodb.com/)
--   [Node.js - Windows/Mac](https://nodejs.org/en/download/)
+-   [Node.js](https://nodejs.org/en/download/)
 
 ## Clonando o repositório
 
