@@ -55,4 +55,4 @@ npm install
 
 ## Servidor de Desenvolvimento
 
-ng serve
+nodemon server.js
