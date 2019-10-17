@@ -55,4 +55,4 @@ npm install
 
 ## Servidor de Desenvolvimento
 
-nodemon server.js
+npm run start
